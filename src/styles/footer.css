@@ -1,0 +1,27 @@
+.Footer_Kasa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000;
+    height: 230px;
+    margin-top: 82px;
+
+
+}
+
+.Footer_logo_Kasa {
+    padding: 35px 0 20px 0 ;
+}
+
+p {
+    color: #fff;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    
+    p {
+        font-size: 12px;
+    }
+}

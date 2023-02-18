@@ -1,0 +1,149 @@
+.Owner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Owner_contain {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.Oner_title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #ff6060;
+}
+.Owner_location {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff6060;
+    margin: 5px 0 20px;
+}
+.Owner_location_tags {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.Owner_tag {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background-color: #ff6060;
+    height: 25px;
+    padding: 0 17px;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.owner_contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.owner_general {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.owner_list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.owner_name {
+    font-size: 18px;
+    color: #ff6060;
+    font-weight: 500;
+    width: 93px;
+    text-align: right;
+    margin: 0 10px 0;
+}
+.owner_img {
+    border-radius: 30px;
+    height: 64px;
+    width: 64px;
+}
+
+.owner_rating {
+    margin: 20px ;
+}
+
+.owner_rating_stars {
+    padding-left: 9px;
+}
+.List_owner {
+   display: flex;
+   column-gap: 76px;
+}
+.List {
+    width: 100%;
+}
+
+.List_btn {
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.List_equipement {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .Owner {
+        flex-direction: column;
+    }
+
+    .owner_contain {
+        flex-direction: row-reverse;
+    }
+    
+    .owner_rating {
+        margin-left: 0;
+    }
+
+    .List_owner {
+        display: block;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .Owner_contain {
+        margin: 0;
+    }
+
+    .Owner_title {
+        font-size: 18px;
+    }
+
+    .Owner_location {
+        font-size: 14px;
+    }
+
+    .Owner_tag {
+        margin-bottom: 10px;
+    }
+
+    .owner_name {
+        font-size: 15px;
+    }
+
+    .owner_img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .owner_rating {
+        margin: 10px 0 0;
+    }
+
+    .owner_rating_stars {
+        width: 14px;
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,44 @@
+.Error_Page {
+    text-align: center;
+    color: #FF6060;
+    margin-top: 150px;
+    margin-bottom: 159px;
+}
+
+.Error_Page_404 {
+    font-size: 288px;
+}
+
+.Error_Page_subtitle {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF6060;
+    margin: 66px 0 182px;
+}
+
+.Error_Page_link {
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 767px) {
+    
+    .Error_Page_404 {
+        font-size: 96px;
+        margin-top: 195px;
+    }
+
+    .Error_Page_subtitle {
+        font-size: 18px;
+        margin: 11px 0 133px;
+    }
+
+    .Error_Page_link {
+        font-size: 14px;
+    }
+}

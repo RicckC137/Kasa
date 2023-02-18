@@ -1,0 +1,92 @@
+.Carrousel {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.content {
+    margin: 0 40px;
+}
+
+.Carrousel_p {
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 395px;
+}
+
+.carousel_img {
+    width: 100%;
+    object-fit: cover;
+    height: 415px;
+    border-radius: 25px;
+}
+
+.Left_Arrow {
+    position: absolute;
+    left: 23px;
+    bottom: 179px;
+    width: 46.5px;
+    height: 79px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+
+.Right_Arrow {
+    position: absolute;
+    right: 23px;
+    bottom: 179px;
+    width: 46.5px;
+    height: 79px;
+    cursor: pointer;
+    z-index: 10;
+    user-select: none;
+}
+@media screen and (max-width: 991px) {
+    
+    .Right_Arrow {
+        width: 20px;
+        height: 34px;
+        position: absolute;
+        bottom: 193px;
+     }
+
+     .Left_Arrow {
+        width: 20px;
+        height: 34px;
+        position: absolute;
+        bottom: 193px;
+     }
+
+}
+
+@media screen and (max-width: 767px) {
+ 
+    
+    .carousel_img {
+        border-radius: 10px;
+        height: 255px;
+    }
+     .Carrousel_p {
+        display: none;
+     }
+
+     .Right_Arrow {
+        width: 12px;
+        height: 20px;
+        position: absolute;
+        bottom: 127.5px;
+        right: 12px;
+     }
+
+     .Left_Arrow {
+        width: 12px;
+        height: 20px;
+        position: absolute;
+        bottom: 127.5px;
+        left: 12px;
+     }
+}
+

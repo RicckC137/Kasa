@@ -1,0 +1,22 @@
+
+.card_div_style {
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    max-width: 1240px;
+    margin: 40px auto;
+    padding: 56px 50px;
+}
+
+@media screen and (max-width: 991px) {
+    
+    .card_div_style {
+        padding: 36px 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    
+    .card_div_style {
+        padding: 28px 25px;
+    }
+}
